@@ -1,0 +1,438 @@
+LOG TERMINAL
+
+(.env) (base) alexandre@alexandre:~/tp04/study_planner_agent$ python3 main.py 
+/home/alexandre/tp04/study_planner_agent/agent_core/orchestrator.py:9: LangChainDeprecationWarning: As of langchain-core 0.3.0, LangChain uses pydantic v2 internally. The langchain_core.pydantic_v1 module was a compatibility shim for pydantic v1, and should no longer be used. Please update the code to import from Pydantic directly.
+
+For example, replace imports like: `from langchain_core.pydantic_v1 import BaseModel`
+with: `from pydantic import BaseModel`
+or the v1 compatibility namespace if you are working in a code base that has not been fully upgraded to pydantic 2 yet.      from pydantic.v1 import BaseModel
+
+  from agent_core.classifier import TopicClassifier
+==================================================
+🤖 INICIANDO AGENTE ORGANIZADOR DE ESTUDOS 🤖
+==================================================
+🔎 Lendo e processando PDFs da pasta: input_proofs...
+Processando PDFs: 100%|████████████████████████████████████████| 2/2 [00:01<00:00,  2.00it/s]
+✅ Extração concluída. Total de 54 páginas (chunks) processadas.
+
+🧠 Classificando conteúdo com o agente de IA...
+Classificando Chunks: 100%|██████████████████████████████████| 54/54 [02:54<00:00,  3.23s/it]
+
+📄 Gerando explicações e PDFs de estudo por assunto...
+Gerando Explicações e PDFs:   0%|                                     | 0/10 [00:00<?, ?it/s]🧠 Gerando explicação para o tópico: Redação - Atendimento ao Cliente em Instituições Financeiras...
+Gerando Explicações e PDFs:  10%|██▉                          | 1/10 [00:11<01:39, 11.07s/it]🧠 Gerando explicação para o tópico: Língua Portuguesa - Interpretação de Texto e Vocabulário...
+🧠 Gerando explicação para o tópico: Língua Portuguesa - Gramática...
+🧠 Gerando explicação para o tópico: Língua Portuguesa - Redação Dissertativo-Argumentativa...
+🧠 Gerando explicação para o tópico: Língua Portuguesa - Compreensão e Interpretação de Texto...
+Gerando Explicações e PDFs:  20%|█████▊                       | 2/10 [01:41<07:43, 57.94s/it]🧠 Gerando explicação para o tópico: Língua Inglesa - História do Dinheiro...
+🧠 Gerando explicação para o tópico: Língua Inglesa - Compreensão de Texto e Gramática...
+Gerando Explicações e PDFs:  30%|████████▋                    | 3/10 [02:16<05:31, 47.29s/it]🧠 Gerando explicação para o tópico: Matemática - Raciocínio Lógico...
+🧠 Gerando explicação para o tópico: Matemática - Problemas de Matemática...
+🧠 Gerando explicação para o tópico: Matemática - Raciocínio Lógico-Matemático...
+🧠 Gerando explicação para o tópico: Matemática - Probabilidade e Estatística...
+🧠 Gerando explicação para o tópico: Matemática - Probabilidade...
+Gerando Explicações e PDFs:  40%|███████████▌                 | 4/10 [03:45<06:23, 63.83s/it]🧠 Gerando explicação para o tópico: Atualidades do Mercado Financeiro - Mercado Financeiro e Tecnologia Financeira...
+🧠 Gerando explicação para o tópico: Atualidades do Mercado Financeiro - Fintechs, Registrato, Pix, Open Banking, Funções da Moeda...
+Gerando Explicações e PDFs:  50%|██████████████▌              | 5/10 [04:11<04:11, 50.26s/it]🧠 Gerando explicação para o tópico: Probabilidade e Estatística - Probabilidade e Estatística...
+Gerando Explicações e PDFs:  60%|█████████████████▍           | 6/10 [04:33<02:42, 40.59s/it]🧠 Gerando explicação para o tópico: Conhecimentos Bancários - Sistema Financeiro Nacional e Operações Bancárias...
+🧠 Gerando explicação para o tópico: Conhecimentos Bancários - Legislação e Operações Bancárias...
+Gerando Explicações e PDFs:  70%|████████████████████▎        | 7/10 [05:12<02:00, 40.01s/it]🧠 Gerando explicação para o tópico: Tecnologia da Informação - Programação e Linguagens de Programação...
+🧠 Gerando explicação para o tópico: Tecnologia da Informação - Aprendizado de Máquina, Processamento de Linguagem Natural, Big Data, Programação...
+🧠 Gerando explicação para o tópico: Tecnologia da Informação - Programação e Desenvolvimento de Software...
+🧠 Gerando explicação para o tópico: Tecnologia da Informação - Linguagens de Programação e Banco de Dados...
+🧠 Gerando explicação para o tópico: Tecnologia da Informação - Banco de Dados...
+🧠 Gerando explicação para o tópico: Tecnologia da Informação - Programação e Análise de Dados...
+🧠 Gerando explicação para o tópico: Tecnologia da Informação - Modelagem de Dados e Bancos de Dados Relacionais...
+🧠 Gerando explicação para o tópico: Tecnologia da Informação - Aprendizado de Máquina e Normalização de Banco de Dados...
+🧠 Gerando explicação para o tópico: Tecnologia da Informação - Banco de Dados e Programação...
+🧠 Gerando explicação para o tópico: Tecnologia da Informação - Programação Python...
+🧠 Gerando explicação para o tópico: Tecnologia da Informação - Banco de Dados e SQL...
+🧠 Gerando explicação para o tópico: Tecnologia da Informação - Data Warehouse e Programação Java...
+🧠 Gerando explicação para o tópico: Tecnologia da Informação - Estrutura de Dados - Árvores Binárias...
+🧠 Gerando explicação para o tópico: Tecnologia da Informação - Banco de Dados Relacionais...
+🧠 Gerando explicação para o tópico: Tecnologia da Informação - Algoritmos de Ordenação e Normalização de Banco de Dados...
+🧠 Gerando explicação para o tópico: Tecnologia da Informação - Sistemas, Desenvolvimento e Infraestrutura de TI...
+🧠 Gerando explicação para o tópico: Tecnologia da Informação - Programação e Algoritmos...
+🧠 Gerando explicação para o tópico: Tecnologia da Informação - Algoritmos, Estruturas de Dados e Banco de Dados...
+🧠 Gerando explicação para o tópico: Tecnologia da Informação - Sistemas de Informação...
+🧠 Gerando explicação para o tópico: Tecnologia da Informação - Estruturas de Dados e Algoritmos...
+Gerando Explicações e PDFs:  80%|██████████████████████▍     | 8/10 [11:13<04:44, 142.12s/it]🧠 Gerando explicação para o tópico: Informática - Banco de Dados e SQL...
+🧠 Gerando explicação para o tópico: Informática - Programação...
+🧠 Gerando explicação para o tópico: Informática - HTML, TypeScript...
+Gerando Explicações e PDFs:  90%|█████████████████████████▏  | 9/10 [12:07<01:54, 114.62s/it]🧠 Gerando explicação para o tópico: Programação - Programação Orientada a Objetos em Java...
+🧠 Gerando explicação para o tópico: Programação - Árvores Binárias...
+🧠 Gerando explicação para o tópico: Programação - Java...
+🧠 Gerando explicação para o tópico: Programação - Programação Java - Manipulação de Strings...
+🧠 Gerando explicação para o tópico: Programação - Estruturas de Dados, Algoritmos e Programação Orientada a Objetos em Java...
+Gerando Explicações e PDFs: 100%|████████████████████████████| 10/10 [13:44<00:00, 82.43s/it]
+
+🤖 Analisando sua agenda para entender seus padrões de horários...
+
+--- 🤖 Assistente de Estudos ---
+Olá! Sou seu assistente de estudos e estou pronto para te ajudar a organizar seus estudos de forma inteligente e personalizada.
+
+Analisando os dados que você me trouxe, vi que temos um desafio interessante pela frente! Identifiquei **10 matérias** com um total de **45 assuntos diferentes** a serem abordados.
+
+Uma coisa que se destaca é a matéria de **Tecnologia da Informação**, que é a mais extensa com 20 assuntos. Também percebi que alguns tópicos como **"Língua Portuguesa - Gramática"**, **"Tecnologia da Informação - Banco de Dados"** e **"Programação - Programação Orientada a Objetos em Java"** apareceram mais vezes nas suas análises de questões, o que pode indicar uma maior relevância.
+
+Sobre sua agenda, notei que as tardes de **segunda, terça, quarta e sexta** parecem ter mais compromissos, então podemos buscar encaixar seus estudos nos horários mais livres.
+
+Para começarmos a montar seu cronograma, qual é a sua prioridade principal para esses estudos? Você prefere focar nas matérias mais extensas como TI, ou nos assuntos que apareceram com mais frequência nas questões? Ou talvez você tenha alguma outra ideia em mente?
+
+--- Você ---
+quero focar nas materia mais extensas
+
+--- 🤖 Assistente de Estudos ---
+Ótimo! Focar nas matérias mais extensas é uma excelente estratégia para garantir que você tenha tempo suficiente para cobrir todo o conteúdo.
+
+Conforme a análise que fiz, a matéria mais extensa é **Tecnologia da Informação**, com 20 assuntos. É um volume considerável!
+
+Que tal começarmos por ela? Podemos pensar em como alocar um bom tempo para TI no seu cronograma.
+
+Pensando na sua agenda, que identifiquei que as tardes de segunda, terça, quarta e sexta são mais ocupadas, qual período do dia você costuma ter mais disponibilidade para se dedicar aos estudos de TI? Manhãs, noites ou talvez os fins de semana?
+
+--- Você ---
+manhas, umas 8h, todos os dias
+
+--- 🤖 Assistente de Estudos ---
+Perfeito! Manhãs, a partir das 8h, todos os dias é um período excelente e consistente para dedicação. Isso nos dá uma base sólida para construir seu cronograma.
+
+Vamos então reservar as **manhãs, a partir das 8h**, para os estudos.
+
+Considerando que **Tecnologia da Informação** é a matéria mais extensa com 20 assuntos, e que você tem essa disponibilidade diária, que tal dedicarmos um bom bloco de tempo para TI nas manhãs?
+
+Por exemplo, poderíamos começar com **1h30 a 2h de estudo de TI por dia** nas manhãs, de segunda a sexta, e talvez um período um pouco mais longo nos fins de semana, se for viável para você.
+
+O que você acha dessa ideia? E qual duração de estudo você se sente mais confortável para começar por dia (por exemplo, 1h30, 2h, etc.)?
+
+--- Você ---
+gostei da ideia
+
+--- 🤖 Assistente de Estudos ---
+Excelente! Fico feliz que a ideia te agrade.
+
+Para fecharmos o bloco de **Tecnologia da Informação** nas manhãs: qual duração você se sente mais confortável para começar por dia?
+
+Podemos pensar em:
+*   **1h30** (das 8h às 9h30)
+*   **2h** (das 8h às 10h)
+*   Ou outro tempo que você prefira.
+
+Ter essa definição nos ajudará a encaixar as outras matérias que também são extensas, como **Matemática** (5 assuntos) e **Programação** (5 assuntos), já que você quer focar nas matérias de maior volume.
+
+--- Você ---
+2h
+
+--- 🤖 Assistente de Estudos ---
+Ótimo! Duas horas por dia dedicadas a **Tecnologia da Informação** nas manhãs (das 8h às 10h) é um excelente ponto de partida. Isso nos dá uma consistência e um bom tempo para avançar nos 20 assuntos de TI.
+
+Então, temos:
+*   **Segunda a Sexta:** 8h às 10h - **Tecnologia da Informação**
+
+Agora que definimos o horário para a matéria mais extensa, vamos pensar nas próximas. As outras matérias mais extensas que você tem são:
+*   **Matemática:** 5 assuntos
+*   **Programação:** 5 assuntos
+
+Você tem alguma preferência entre **Matemática** e **Programação** para encaixarmos em um próximo bloco de estudos? E, considerando que suas tardes são mais ocupadas, você teria mais disponibilidade para essas matérias nas **manhãs (após as 10h)**, ou talvez nas **noites**?
+
+--- Você ---
+sim
+
+--- 🤖 Assistente de Estudos ---
+Certo! O "sim" indica que você está pronto para seguirmos.
+
+Para as próximas matérias extensas, que são **Matemática** (5 assuntos) e **Programação** (5 assuntos), você tem alguma preferência sobre qual delas gostaria de estudar primeiro?
+
+E, em relação aos horários, além das manhãs (após as 10h), você teria disponibilidade nas **noites** para essas matérias, considerando que suas tardes são mais ocupadas?
+
+Me diga qual delas prefere e em qual período se encaixa melhor para você!
+
+--- Você ---
+pode ficar para depois dos outros horarios, ou pode jogar tudo para o fim de semana
+
+--- 🤖 Assistente de Estudos ---
+Entendido! Essa flexibilidade é ótima para otimizar o cronograma.
+
+Dado que já temos um bloco sólido de 2 horas para **Tecnologia da Informação** nas manhãs de segunda a sexta, e que suas tardes são mais ocupadas, **concentrar Matemática e Programação no fim de semana** parece uma excelente estratégia.
+
+Isso permite que você tenha um foco intenso em TI durante a semana e dedique blocos maiores e mais flexíveis para Matemática e Programação nos sábados e domingos.
+
+**Proposta:**
+*   **Segunda a Sexta:** 8h às 10h - **Tecnologia da Informação** (20 assuntos)
+*   **Fim de Semana (Sábado e/ou Domingo):** Dedicar blocos para **Matemática** (5 assuntos) e **Programação** (5 assuntos).
+
+O que você acha de reservar os fins de semana para essas duas matérias? E, se sim, você tem alguma preferência por qual dia (sábado ou domingo) ou se gostaria de dividir entre os dois? E por quanto tempo nesses dias?
+
+--- Você ---
+e as outras matérias como portugues?
+
+--- 🤖 Assistente de Estudos ---
+Ótima pergunta! Não podemos esquecer das outras matérias importantes.
+
+Até agora, temos um bom plano para as matérias mais extensas:
+*   **Segunda a Sexta:** 8h às 10h - **Tecnologia da Informação** (20 assuntos)
+*   **Fim de Semana (Sábado e/ou Domingo):** Blocos para **Matemática** (5 assuntos) e **Programação** (5 assuntos)
+
+Agora, vamos encaixar as demais matérias, incluindo **Língua Portuguesa** (4 assuntos), que inclusive tem "Gramática" e "Interpretação de Texto e Vocabulário" como assuntos com mais questões na sua análise.
+
+As outras matérias são:
+*   **Língua Portuguesa:** 4 assuntos (importante, com questões relevantes)
+*   **Língua Inglesa:** 2 assuntos
+*   **Atualidades do Mercado Financeiro:** 2 assuntos
+*   **Probabilidade e Estatística:** 1 assunto
+*   **Conhecimentos Bancários:** 2 assuntos
+*   **Informática:** 3 assuntos
+*   **Redação:** 1 assunto (com foco em Atendimento ao Cliente em Instituições Financeiras)
+
+Considerando que suas tardes são mais ocupadas, mas que temos as manhãs até 8h livres e as noites podem ser uma opção, como você prefere abordar essas matérias?
+
+1.  **Distribuir algumas delas em blocos menores durante a semana**, talvez no período da noite, após suas atividades?
+2.  **Reservar um terceiro bloco no fim de semana**, além de Matemática e Programação?
+3.  **Priorizar as mais relevantes (como Português) e deixar as outras para um segundo momento** ou para "revisões" mais rápidas?
+
+Qual dessas opções te parece mais viável e interessante?
+
+--- Você ---
+Distribuir algumas delas em blocos menores durante a semana
+
+--- 🤖 Assistente de Estudos ---
+Perfeito! Distribuir em blocos menores durante a semana é uma excelente forma de manter o contato com essas matérias e evitar acumular tudo no fim de semana.
+
+Considerando que suas tardes são mais ocupadas, e já temos as manhãs (8h-10h) para TI, o período da **noite** seria a opção mais lógica para esses blocos menores.
+
+Vamos pensar em quais matérias seriam mais estratégicas para esses blocos noturnos. **Língua Portuguesa** se destaca por ter 4 assuntos e questões relevantes.
+
+Que tal começarmos com **Língua Portuguesa**? Poderíamos dedicar, por exemplo, **1 hora** em algumas noites da semana para ela.
+
+Você tem alguma noite específica (ex: segunda, terça, quinta) que costuma ter mais tranquilidade para um estudo de 1 hora, ou prefere que eu sugira alguns dias?
+
+--- Você ---
+sugira
+
+--- 🤖 Assistente de Estudos ---
+Entendido! Para **Língua Portuguesa** (4 assuntos, e com tópicos importantes como Gramática e Interpretação), é crucial ter uma frequência.
+
+Considerando sua disponibilidade e que suas tardes são mais ocupadas, sugiro dedicarmos **1 hora** para Língua Portuguesa em duas noites da semana.
+
+Que tal **Terça-feira à noite** e **Quinta-feira à noite**?
+
+*   A **Terça** te dá um primeiro contato com a matéria no início da semana.
+*   A **Quinta** reforça o aprendizado antes do fim de semana.
+
+Qual horário da noite seria melhor para você iniciar esses blocos de 1 hora? Por exemplo, a partir das **19h**, **20h** ou até um pouco mais tarde, dependendo de como terminam seus compromissos da tarde?
+
+--- Você ---
+19h
+
+--- 🤖 Assistente de Estudos ---
+Excelente! Definido!
+
+Então, para **Língua Portuguesa**, teremos:
+*   **Terça-feira:** 19h às 20h - **Língua Portuguesa**
+*   **Quinta-feira:** 19h às 20h - **Língua Portuguesa**
+
+Com isso, nosso cronograma preliminar está tomando forma:
+
+*   **Segunda a Sexta:** 8h às 10h - **Tecnologia da Informação** (2h/dia)
+*   **Terça-feira:** 19h às 20h - **Língua Portuguesa** (1h)
+*   **Quinta-feira:** 19h às 20h - **Língua Portuguesa** (1h)
+*   **Fim de Semana (Sábado e/ou Domingo):** Blocos para **Matemática** (5 assuntos) e **Programação** (5 assuntos)
+
+Agora, temos outras matérias para encaixar em blocos menores durante a semana, se possível, ou considerar para o fim de semana:
+*   **Língua Inglesa:** 2 assuntos
+*   **Atualidades do Mercado Financeiro:** 2 assuntos
+*   **Probabilidade e Estatística:** 1 assunto
+*   **Conhecimentos Bancários:** 2 assuntos
+*   **Informática:** 3 assuntos
+*   **Redação:** 1 assunto
+
+Dessas, você tem alguma que considere mais urgente ou que gostaria de encaixar em outra noite da semana, talvez na **segunda** ou **quarta** à noite (já que sexta à noite talvez você queira relaxar, mas é uma opção)? Ou podemos pensar em agrupar algumas delas?
+
+--- Você ---
+pode agrupar
+
+--- 🤖 Assistente de Estudos ---
+Ótimo! Agrupar as matérias menores é uma estratégia inteligente para otimizar seu tempo e garantir que tudo seja abordado.
+
+Vamos usar as noites de **segunda** e **quarta** (19h-20h) para esses grupos.
+
+Minha sugestão de agrupamento é a seguinte, pensando em matérias que se complementam ou que podem ser estudadas em sequência:
+
+*   **Segunda-feira (19h às 20h):**
+    *   **Grupo 1:** **Informática** (3 assuntos) e **Língua Inglesa** (2 assuntos).
+    *   *Total de 5 assuntos para este bloco.*
+
+*   **Quarta-feira (19h às 20h):**
+    *   **Grupo 2:** **Conhecimentos Bancários** (2 assuntos), **Atualidades do Mercado Financeiro** (2 assuntos) e **Redação** (1 assunto).
+    *   *Total de 5 assuntos para este bloco.*
+
+**Isso nos deixa com apenas uma matéria pendente: Probabilidade e Estatística (1 assunto).**
+Por ser um único assunto, ele é bem flexível. Podemos:
+1.  Encaixá-lo como um "bônus" ou revisão rápida em algum dia (talvez 30 minutos em uma sexta-feira à noite, se você tiver um tempinho, ou até mesmo em um dos fins de semana).
+2.  Integrá-lo ao Grupo 1 ou 2, alternando com as outras matérias.
+
+O que você acha desses dois grupos para as noites de segunda e quarta? E como preferiria lidar com **Probabilidade e Estatística**?
+
+--- Você ---
+joga para o final de semana depois dos outros blocos
+
+--- 🤖 Assistente de Estudos ---
+Perfeito! Entendido. **Probabilidade e Estatística** será encaixada no fim de semana, após os blocos de Matemática e Programação. Isso garante que ela não seja esquecida, mas com a flexibilidade de ser um assunto único.
+
+Então, nosso cronograma está ficando bem completo e organizado!
+
+Vamos revisar como ele está até agora:
+
+**CRONOGRAMA DE ESTUDOS PRELIMINAR**
+
+*   **Segunda-feira:**
+    *   **8h às 10h:** **Tecnologia da Informação** (20 assuntos - Foco Extenso)
+    *   **19h às 20h:** **Informática** (3 assuntos) + **Língua Inglesa** (2 assuntos)
+
+*   **Terça-feira:**
+    *   **8h às 10h:** **Tecnologia da Informação** (20 assuntos - Foco Extenso)
+    *   **19h às 20h:** **Língua Portuguesa** (4 assuntos - Gramática, Interpretação, etc.)
+
+*   **Quarta-feira:**
+    *   **8h às 10h:** **Tecnologia da Informação** (20 assuntos - Foco Extenso)
+    *   **19h às 20h:** **Conhecimentos Bancários** (2 assuntos) + **Atualidades do Mercado Financeiro** (2 assuntos) + **Redação** (1 assunto)
+
+*   **Quinta-feira:**
+    *   **8h às 10h:** **Tecnologia da Informação** (20 assuntos - Foco Extenso)
+    *   **19h às 20h:** **Língua Portuguesa** (4 assuntos - Gramática, Interpretação, etc.)
+
+*   **Sexta-feira:**
+    *   **8h às 10h:** **Tecnologia da Informação** (20 assuntos - Foco Extenso)
+    *   (Tarde e Noite livres de estudos programados, para relaxar ou adiantar algo se quiser)
+
+*   **Sábado e/ou Domingo:**
+    *   Blocos dedicados a:
+        *   **Matemática** (5 assuntos - Foco Extenso)
+        *   **Programação** (5 assuntos - Foco Extenso)
+        *   **Probabilidade e Estatística** (1 assunto - Após os blocos anteriores)
+
+**Próximo Passo:**
+
+Precisamos definir os blocos de estudo para o **fim de semana** (Sábado e/ou Domingo) para **Matemática**, **Programação** e **Probabilidade e Estatística**.
+
+Você tem preferência por quais dias do fim de semana (sábado, domingo ou ambos) e por quanto tempo você gostaria de dedicar a esses estudos? Por exemplo, um bloco de 2-3 horas no sábado e outro no domingo, ou um dia mais longo?
+
+--- Você ---
+ambos, quero dedicar o qe for necessario
+
+--- 🤖 Assistente de Estudos ---
+Excelente! Essa disposição de dedicar "o que for necessário" nos fins de semana é fantástica e nos dá muita flexibilidade para cobrir **Matemática** (5 assuntos), **Programação** (5 assuntos) e **Probabilidade e Estatística** (1 assunto).
+
+Para que seja produtivo e não se torne cansativo, sugiro a seguinte distribuição, permitindo blocos de estudo robustos com espaço para pausas:
+
+**Proposta para o Fim de Semana:**
+
+*   **Sábado:**
+    *   **Manhã (ex: 9h às 12h30 - 3h30 de estudo com pequenas pausas):** Dedicar este bloco para **Matemática**. Com 5 assuntos, 3h30 é um tempo muito bom para aprofundar ou cobrir novos tópicos.
+    *   *Sugestão de horário, mas pode ser ajustado conforme sua preferência matinal ou vespertina no sábado.*
+
+*   **Domingo:**
+    *   **Manhã (ex: 9h às 12h30 - 3h30 de estudo com pequenas pausas):** Dedicar este bloco para **Programação**. Assim como Matemática, 5 assuntos se beneficiam de um bloco concentrado.
+    *   *Sugestão de horário, mas pode ser ajustado conforme sua preferência matinal ou vespertina no domingo.*
+
+*   **Probabilidade e Estatística (1 assunto):**
+    *   Por ser um único assunto, podemos encaixá-lo como um **bloco mais curto de 1h a 1h30** em um dos dias do fim de semana, talvez no **sábado à tarde** ou **domingo à tarde**, como um complemento ou uma revisão. Ou, se preferir, pode até ser alocado em um dos blocos de Matemática ou Programação se você sentir que avançou bem neles.
+
+**Resumo do Fim de Semana Proposto:**
+
+*   **Sábado:**
+    *   **9h às 12h30:** **Matemática** (Foco Extenso)
+    *   **Tarde (ex: 15h às 16h30):** **Probabilidade e Estatística** (ou em outro momento de sua preferência)
+
+*   **Domingo:**
+    *   **9h às 12h30:** **Programação** (Foco Extenso)
+
+O que você acha dessa distribuição e desses horários para o fim de semana? Os horários das 9h às 12h30 funcionam para você, ou prefere começar um pouco mais tarde ou estudar à tarde?
+
+--- Você ---
+gostei desse jeito
+
+--- 🤖 Assistente de Estudos ---
+Maravilhoso! Fico muito feliz que tenhamos chegado a um cronograma que te agrade e que seja tão abrangente.
+
+Com base em todas as nossas conversas, aqui está a proposta final do seu cronograma de estudos personalizado:
+
+---
+
+### **CRONOGRAMA DE ESTUDOS PERSONALIZADO**
+
+**Objetivo:** Foco nas matérias mais extensas e distribuição inteligente das demais.
+
+---
+
+**SEMANA (Segunda a Sexta):**
+
+*   **Manhãs (8h às 10h - 2h de estudo):**
+    *   **Tecnologia da Informação** (20 assuntos)
+        *   *Dedicação diária e intensa para a matéria mais extensa.*
+
+*   **Noites (19h às 20h - 1h de estudo):**
+    *   **Segunda-feira:** **Informática** (3 assuntos) + **Língua Inglesa** (2 assuntos)
+    *   **Terça-feira:** **Língua Portuguesa** (4 assuntos - Gramática, Interpretação, Vocabulário)
+    *   **Quarta-feira:** **Conhecimentos Bancários** (2 assuntos) + **Atualidades do Mercado Financeiro** (2 assuntos) + **Redação** (1 assunto)
+    *   **Quinta-feira:** **Língua Portuguesa** (4 assuntos - Gramática, Interpretação, Vocabulário)
+    *   **Sexta-feira:** Noite livre (para descanso ou revisão flexível, se desejar)
+
+---
+
+**FIM DE SEMANA (Sábado e Domingo):**
+
+*   **Sábado:**
+    *   **Manhã (9h às 12h30 - 3h30 de estudo):** **Matemática** (5 assuntos)
+        *   *Bloco concentrado para avançar nos tópicos.*
+    *   **Tarde (15h às 16h30 - 1h30 de estudo):** **Probabilidade e Estatística** (1 assunto)
+        *   *Encaixado após os blocos maiores, como um complemento.*
+
+*   **Domingo:**
+    *   **Manhã (9h às 12h30 - 3h30 de estudo):** **Programação** (5 assuntos)
+        *   *Bloco concentrado para avançar nos tópicos.*
+
+---
+
+**Resumo Semanal:**
+
+*   **Tecnologia da Informação:** 10 horas
+*   **Língua Portuguesa:** 2 horas
+*   **Informática + Língua Inglesa:** 1 hora
+*   **Conhecimentos Bancários + Atualidades + Redação:** 1 hora
+*   **Matemática:** 3 horas e 30 minutos
+*   **Programação:** 3 horas e 30 minutos
+*   **Probabilidade e Estatística:** 1 hora e 30 minutos
+*   **Total de Estudos Programados:** Aproximadamente **22 horas e 30 minutos por semana**.
+
+---
+
+Este cronograma está bem estruturado, com foco nas matérias mais extensas e um bom equilíbrio entre as demais, respeitando seus horários mais ocupados.
+
+O que você acha do plano completo? Há algo que gostaria de ajustar ou algum ponto que ainda te preocupa? Estou aqui para refinar o que for preciso!
+
+--- Você ---
+gostei do plano
+
+--- 🤖 Assistente de Estudos ---
+Que maravilha! Fico muito feliz em saber que o plano te agrada!
+
+Construímos um cronograma sólido, personalizado para suas necessidades e que leva em conta tanto a extensão das matérias quanto sua disponibilidade. Tenho certeza de que, seguindo este plano, você terá uma excelente base para seus estudos.
+
+Lembre-se que um cronograma é uma ferramenta flexível. Com o tempo, você pode sentir a necessidade de ajustar um pouco os horários ou aprofundar mais em um assunto específico. Não hesite em fazer pequenas adaptações se perceber que algo não está funcionando perfeitamente para você.
+
+Algumas dicas finais para te ajudar a ter sucesso:
+*   **Seja consistente:** Tente seguir os horários estabelecidos o máximo possível.
+*   **Faça pausas:** Dentro dos blocos de estudo mais longos (como os de 2h ou 3h30), faça pequenas pausas de 5-10 minutos a cada 50 minutos de estudo para descansar a mente.
+*   **Revise regularmente:** Além dos estudos de novos conteúdos, reserve um tempo (talvez na sexta à noite, se sentir que tem energia, ou no fim de semana) para revisar o que foi aprendido na semana.
+*   **Monitore seu progresso:** À medida que avança, pode ser útil marcar os assuntos que já cobriu para ter uma visão clara do que falta.
+
+Estou aqui para te apoiar em sua jornada de estudos. Se precisar de qualquer ajuste no futuro, tiver dúvidas ou quiser discutir estratégias, é só chamar!
+
+Desejo muito sucesso em seus estudos! Vamos nessa!
+⚠️ Data de início não foi especificada na conversa. Usando a data de hoje: 2025-07-28
+
+✅ Ótimo! Entendi que o plano está pronto. Preparando para agendar...
+
+📅 Criando cronograma personalizado e agendando no Google Calendar...
+Agendando Eventos: 100%|█████████████████████████████████████| 45/45 [00:32<00:00,  1.37it/s]
